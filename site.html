@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolves</title>
+    <!-- Boxicons.com -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="CSS/group.css">
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="ico/Lobo.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><img src="img/Wolf.png" alt="Logo"></a>
+
+        <div class="nav">
+            <a href="#main">Principal</a>
+            <a href="#main2">Serviços</a>
+            <a href="#main3">Planos</a>
+            <a href="#about">Quem Somos</a>
+            <a href="#portfolio">Portifólios</a>
+            <a href="#contact">Contato</a>
+        </div>
+
+        <div class="nav-responsive">
+            <a href="#main">Principal</a>
+            <a href="#main2">Serviços</a>
+            <a href="#main3">Planos</a>
+            <a href="#about">Quem Somos</a>
+            <a href="#portfolio">Portifólios</a>
+            <a href="#contact">Contato</a>
+        </div>
+
+        <div class="menu-hamburguer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+    <!-- /header section -->
+
+    <!-- main section part1 -->
+    <section class="main" id="main">
+        <h1>Olá, somos a equipe <span>Wolves</span>!</h1>
+        
+        <h3>"A Web é o nosso território de <span>caça</span>."</h3>
+
+        <div class="main-img">
+            <img src="img/Logo.png" alt="Main Logo">
+        </div>
+    </section>
+    <!-- /main section part1 -->
+
+    <!-- main section part2 -->
+    <section class="main2" id="main2">
+        <h2>Nossos <span>Serviços</span></h2>
+
+        <div class="main-container">
+            <div class="main-box">
+                <h3>Desenvolvimento Web</h3>
+
+                <p>
+                    Criamos websites responsivos e intuitivos, garantindo uma presença online eficaz para sua empresa ou marca. Utilizando as mais recentes tecnologias e práticas de desenvolvimento web, garantimos uma experiência de usuário excepcional.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+
+            <div class="main-box">
+                <h3>Consultoria em Tecnologia</h3>
+
+                <p>
+                    Além do desenvolvimento, oferecemos consultoria especializada em tecnologia para ajudar sua empresa a tomar decisões informadas sobre estratégias de TI, seleção de tecnologias e otimização de processos.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+
+            <div class="main-box">
+                <h3>Integração de Sistemas</h3>
+
+                <p>
+                    Se você precisa integrar sistemas existentes ou conectar diferentes plataformas, nossa equipe pode ajudar a criar soluções robustas e escaláveis que otimizam a eficiência e a produtividade.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+    <!-- /main section part2 -->
+
+    <!-- main section part3 -->
+    <section class="main3" id="main3">
+        <h2>Nossos <span>Planos</span></h2>
+
+        <div class="main-container2">
+            <div class="main-box2">
+                <h3>Plano <span class="other">Básico</span></h3>
+
+                <p>
+                    Ideal para startups e pequenas empresas, este plano oferece desenvolvimento de software personalizado com recursos essenciais a um preço acessível.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+
+            <div class="main-box2">
+                <h3>Plano <span class="other2">Empresarial</span></h3>
+
+                <p>
+                    Projetado para empresas de médio porte, este plano inclui desenvolvimento web e móvel avançado, consultoria em tecnologia e suporte dedicado.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+
+            <div class="main-box2">
+                <h3>Plano <span>Personalizado</span></h3>
+
+                <p>
+                    Para projetos complexos ou requisitos específicos, oferecemos planos personalizados que podem ser adaptados às necessidades exclusivas da sua empresa, garantindo resultados sob medida.
+                </p>
+
+                <button class="read">Saiba Mais</button>
+            </div>
+        </div>
+
+        <h2>Solicite um orçamento!</h2>
+        <form id="form">
+            <div class="input-box">
+                <div class="input-label">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name">
+                    <span class="error" id="nameError">Por favor, preencha o seu nome</span><br><br>
+                </div>
+
+                <div class="input-label">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email">
+                    <span class="error" id="emailError">Por favor, preencha o seu e-mail</span><br><br>
+                </div>
+
+                <div class="input-label">
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message"></textarea>
+                    <span class="error" id="messageError">Por favor, escreva uma mensagem</span><br><br>
+                </div>
+            </div>
+
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+
+            <div id="successMessage" style="display: none;">Formulário enviado com sucesso!</div>
+    </section>
+    <!-- /main section part3 -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <h2>Quem Somos</h2>
+
+        <div class="about-content">
+            <p>
+                Bem-vindos à Wolves, uma equipe de <span>estudantes</span> de Ciências da Computação, dedicada à inovação e excelência em tecnologia. Combinando paixão, talento e expertise, nós, João Miguel, Manuel e Gustavo, fundamos a Wolves com a visão de oferecer soluções de desenvolvimento web de ponta que impulsionem os negócios dos nossos clientes para novos patamares.
+            </p>
+        </div>
+
+        <div class="about-img">
+            <div class="img-container">
+                <img src="img/perfilJM.png" alt="About Us">
+                <p>João Miguel</p>
+            </div>
+
+            <div class="img-container">
+                <img src="img/manuel.png" alt="About Us">
+                <p>Manuel</p>
+            </div>
+
+            <div class="img-container">
+                <img src="img/Gustavo.png" alt="About Us">
+                <p>Gustavo</p>
+            </div>
+        </div>
+
+        <div class="down">
+            <h2>Nossas <span>Habilidades</span> e <span>Expectativas</span></h2>
+        </div>
+
+        <div class="about-container">
+            <div class="about-box">
+                <h3>HTML e CSS</h3>
+
+                <p>
+                    Na Wolves, começamos nossa jornada com um entendimento intermediário dos fundamentos do desenvolvimento web. Nossos conhecimentos básicos em HTML e CSS nos permitem criar layouts e interfaces visualmente atraentes e funcionais. Com essas ferramentas, já podemos transformar conceitos em realidade e construir os alicerces de projetos web de qualidade.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Dando os primeiros passos em JavaScript</h3>
+
+                <p>
+                    Além disso, embora nosso conhecimento em JavaScript seja superficial neste estágio, reconhecemos sua importância como uma linguagem dinâmica que pode adicionar interatividade e funcionalidade avançada aos nossos projetos. Estamos começando a explorar seus conceitos básicos e experimentando com suas possibilidades, conscientes de que esta é uma área em que estamos ansiosos para crescer e aprimorar nossas habilidades.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Visão do Futuro</h3>
+
+                <p>
+                    No entanto, não estamos satisfeitos em permanecer no estágio inicial de nossa jornada de desenvolvimento. Na Wolves, estamos firmemente comprometidos em alcançar o nível de desenvolvedores seniores, e isso implica em um plano ambicioso de crescimento e desenvolvimento.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- /about section -->
+
+    <!-- portfolios section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Nossos <span>Portifólios</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/perfilJM.png" alt=Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>João Miguel</h4>
+
+                    <p>
+                        "Como o lobo Fenrir, trago a força da matilha para nossa equipe, unindo-nos em um vínculo inquebrável, pronto para superar qualquer desafio que surja em nosso caminho."
+                    </p>
+
+                    <a href="Portifólio João Miguel/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/Manuel.png" alt="Portfolio 2">
+
+                <div class="portfolio-layer">
+                    <h4>Manuel</h4>
+
+                    <p>
+                        "Assim como o lobo Hati, mantenho meu foco implacável em nossas metas, guiando-nos com determinação rumo à vitória."
+                    </p>
+
+                    <a href="Portifólio Manuel/Meu currículo.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/Gustavo.png" alt="Portfolio 3">
+
+                <div class="portfolio-layer">
+                    <h4>Gustavo</h4>
+
+                    <p>
+                        "Como o lobo Sköll, trago a determinação incansável para perseguir nossos objetivos até alcançarmos o sucesso."
+                    </p>
+
+                    <a href="Portfólio Gustavo/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /portfolios section -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2>Entre em <span>contato</span>!</h2>
+
+        <a href="mailto:nordwolves@outlook.com">Enviar Email</a>
+    </section>
+    <!-- /contact section -->
+
+    <footer>
+        <p>Copyright &copy; 2024 by Wolves.</p>
+    </footer>
+</body>
+<script src="js/java.js"></script>
+</html>

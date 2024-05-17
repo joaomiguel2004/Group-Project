@@ -1,0 +1,333 @@
+body{
+    background-color: #1C1C1C;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    font-family: poppinslight;
+    margin-left: 760px;
+    align-self: center;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #98FB98;
+    transition: 0.3s all;
+}
+
+#conta-btn{
+    border: 2px solid #00FF7F;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#conta-btn:hover{
+    background-color: #00FF7F;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+    margin-right: 1000px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    position: relative;
+}
+
+.quad{
+    position: absolute;
+    width: 1898px;
+    height: 498px; 
+    background-color: white; 
+    z-index: -1; 
+    opacity: 0.21;
+    margin-left: -14px;
+    border: 2px solid #3CB371;
+}
+
+.quad2{
+    position: absolute;
+    width: 1898px;
+    height: 966px; 
+    background-color: white; 
+    z-index: -1; 
+    opacity: 0.21; 
+    margin-top: 100px;
+    margin-left: -14px;
+    border: 2px solid #3CB371;
+}
+
+.quad3{
+    position: absolute;
+    width: 1898px;
+    height: 680px; 
+    background-color: white; 
+    z-index: -1; 
+    opacity: 0.21; 
+    margin-top: 100px;
+    margin-left: -14px;
+    border: 2px solid #3CB371;
+}
+
+.quad4{
+    position: absolute;
+    width: 1898px;
+    height: 680px; 
+    background-color: white; 
+    z-index: -1; 
+    opacity: 0.21; 
+    margin-top: 115px;
+    margin-left: -14px;
+    border: 2px solid #3CB371;
+}
+
+.quad5{
+    position: absolute;
+    width: 1898px;
+    height: 420px; 
+    background-color: white; 
+    z-index: -1; 
+    opacity: 0.21; 
+    margin-top: 363px;
+    margin-left: -14px;
+    border: 2px solid #3CB371;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    margin-left: 300px;
+}
+
+.cent{
+    font-size: 25px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    margin-left: 780px;
+    text-align: center;
+}
+
+#inicio{
+    font-size: 56px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+#end{
+    font-size: 56px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+    margin-top: 150px;
+    margin-left: 780px;
+    text-align: center;
+    margin-top: 404px;
+}
+
+span{
+    color: #00FF7F;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    margin-left: 300px;
+}
+
+.benef{
+    line-height: 20px;
+    max-width: 500px;
+    width: 420px;
+    font-family: poppinslight;
+    margin-left: 300px;
+    text-align: justify;
+}
+
+#logo1{
+    width: 100px;
+    height: auto;
+    border: none;
+}
+
+#family{
+    width: 650px;
+    height: auto;
+    margin-top: 102px;
+    margin-left: 370px;
+}
+
+#happy{
+    width: 650px;
+    height: auto;
+    margin-top: 37px;
+    margin-left: 370px;
+}
+
+#money{
+    width: 650px;
+    height: 500px;
+    margin-left: 290px;
+}
+
+#home{
+    width: 650px;
+    height: 680px;
+    margin-top: 102px;
+    margin-left: 370px;
+}
+
+#about{
+    width: 650px;
+    height: 680px;
+    margin-top: 117px;
+    margin-left: 370px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 350px;
+    text-align: center;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #00FF7F;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px){
+    
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+        margin: 25px;
+        margin-left: 255px;
+    }
+
+    h3{
+        margin-left: 120px;
+    }
+
+    #inicio{
+        margin-left: 120px;
+    }
+
+    .benef{
+        margin-left: 120px;
+    }
+
+    #end{
+        margin-left: 120px;
+    }
+
+
+    .cent{
+        margin-left: 120px;
+    }
+    
+    .cont{
+        margin-left: 120px;
+    }
+
+    p{
+        margin-left: 110px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    #family{
+        display: none;
+    }
+
+    #money{
+        display: none;
+    }
+
+    #happy{
+        display: none;
+    }
+
+    #home{
+        display: none;
+    }
+
+    #about{
+        display:none;
+    }
+}
